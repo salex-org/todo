@@ -16,5 +16,3 @@ WORKDIR /
 COPY --from=GO_BUILD /server .
 COPY --from=ANGULAR_BUILD /ui/dist/salex-todo-ui/browser/* ./ui/
 ENTRYPOINT ["/server", "run"]
-
-#TODO build for different target, see observer prod.Dockerfile

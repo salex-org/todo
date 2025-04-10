@@ -38,7 +38,7 @@ $(BIN):
 
 .PHONY: docker-build
 docker-build:
-	docker build -t ${IMAGE} .
+	docker build -f local.Dockerfile -t ${IMAGE} .
 
 .PHONY: docker-run
 docker-run: docker-build
