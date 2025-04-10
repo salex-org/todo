@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+*.iml
+
+# Compiled golang output
+/bin
+
+# Compiled angular output
+/ui/dist
+/ui/tmp
+/ui/out-tsc
+/ui/bazel-out
+
+# Angular cache
+/ui/.angular/cache
+/ui/test-result
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
